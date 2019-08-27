@@ -1,7 +1,7 @@
+// Functions
 // Created by Arindam Karmakar on 26/8/19.
 
 main() {
-
   var fullName = getFullName("Chandler", "Bing");
   var firstName = getFirstName("Ross", "Galler");
   var lastName = getLastName(firstName: "Ross", lastName: "Galler");
