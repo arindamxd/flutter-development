@@ -20,6 +20,7 @@ class Dog {
 
   Dog(this.name, this.age, this.state);
 
+  // Static Method
   static bark() {
     print('Bow Wow');
   }
