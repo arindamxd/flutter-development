@@ -3,8 +3,9 @@
 
 main() {
   Dog d = Dog.newBorn();
-  print('${d.name} [${d.age}]');
+  print('${d._name} [${d.age}]');
 
+  Dog.hey();
   d.bark();
 
   Pug ps = Pug.small('Muffy');
@@ -35,6 +36,11 @@ class Dog {
   // Methods
   bark() {
     print('Bow Wow!');
+  }
+
+  // Static Method
+  static hey() {
+    print('Hey doggo');
   }
 }
 

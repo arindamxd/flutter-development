@@ -10,8 +10,8 @@ main(List<String> args) {
   var isMale = true;
 
   // Create Person object
-  var monica = new Person();
-  var ross = new Person.brother(name, age, salary, isMale);
+  var monica = Person();
+  var ross = Person.brother(name, age, salary, isMale);
 
   print(monica.name + " [" + (monica.isMale ? "Male" : "Female") + "]"); // Monica [Female]
   print(ross.name + " [" + (ross.isMale ? "Male" : "Female") + "]"); // > Ross [Male]

@@ -2,13 +2,13 @@
 // Created by Arindam Karmakar on 27/8/19.
 
 main() {
-  Dog d = new Dog('Duffy', 2);
+  Dog d = Dog('Duffy', 2);
   print('${d.name} [${d.age} ${d.age <= 1 ? "year" : "years"} old Dog]');
 
-  Cat c = new Cat("Sephi", 3);
+  Cat c = Cat("Sephi", 3);
   print('${c.name} [${c.age} ${c.age <= 1 ? "year" : "years"} old Cat]');
 
-  Cat cn = new Cat.newBorn();
+  Cat cn = Cat.newBorn();
   print('${cn.name} [new born]');
 }
 
